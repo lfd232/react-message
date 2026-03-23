@@ -1,16 +1,15 @@
-const Home = () => {
-    return (
-        <div className="profile" >
-            <h1>Профиль</h1>
-           
-           <div className="icons">
-        <p> настройки </p>
-     
-        </div>
+import React from 'react'
+import Sidebar from '../components/Sidebar'
+import styles from "./home.module.css"
+export const Home = () => {
+  return (
+    
+    <div className={styles.page}> 
+        <Sidebar/>
         
-        </div> 
-        
-        ); 
-        
-    }; 
-    export default Home
+    </div>
+    
+    
+    
+  )
+}
