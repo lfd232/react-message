@@ -1,16 +1,14 @@
+import styles from './Home.module.css'
 const Home = () => {
     return (
-        <div className="profile" >
-            <h1>Профиль</h1>
-           
-           <div className="icons">
-        <p> настройки </p>
-     
+        <div className={styles.block}>
+        <p> ДОБРО ПОЖАЛОВАТЬ В НАШ МАГАЗИН ПЕРЧАТОК </p>
+
         </div>
+
         
-        </div> 
-        
+       
         ); 
-        
+      
     }; 
     export default Home

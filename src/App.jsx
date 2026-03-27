@@ -1,12 +1,13 @@
-import './App.css'
+// import './App.css'
 import Auto from './components/Auto'
-
+import Home from './pages/Home'
 function App() {
 
 
   return (
     <>
-     <Auto/>
+     {/* <Auto/> */}
+     <Home/>
     </>
   )
 }

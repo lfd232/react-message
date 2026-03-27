@@ -4,7 +4,7 @@ function Sidebar() {
 
   return (
     <>
-    dwdwddd
+    
     </>
   )
 }
