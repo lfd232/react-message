@@ -1,0 +1,97 @@
+.workspace {
+    width: 100%;
+    height:100%;
+  
+    
+}
+.highbar{
+    
+    display:flex;
+    justify-content:flex-start;
+    align-items: center;
+    width:100%;
+    height:15%;
+    gap:200px;
+    background-color:orange;
+}
+.arrow {
+    margin-left: 20px;
+    position: relative;
+    width: 25px;
+    height: 25px;
+    border: 3px solid blanchedalmond;
+    border-radius: 50%;
+}
+.arrow:after {
+    position: absolute;
+    top: 8px;;
+    left: 9px;
+    content: '';
+    display: block;
+    width: 7px;
+    height: 7px;
+    border-left: 3px solid black;
+    border-bottom: 3px solid black;
+    transform: rotate(45deg);
+    border-radius: 3px;
+}
+.companion{
+    background-color:blanchedalmond;
+    height: 50px;
+    width:50px;
+    border-radius: 50px;
+}
+.companionname, .companionupdate{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.companionmain{
+    align-items: center;
+    display: flex;
+    gap:20px;
+}
+
+.companionupdate{
+    font-size: 15px;
+}
+.companionname{
+    font-size:20px;
+}
+.entryarea{
+    width:100%;
+    height:15%;
+    background-color:orange;
+    border-radius: 65px;
+    display:flex;
+    justify-content: end;
+    align-items: center;
+    
+}
+
+.messagearea{
+    width:100%;
+    height:70%;
+}
+.send {
+    
+    margin-right: 20px;
+    position: relative;
+    width: 30px;
+    height: 30px;
+    border: 5px solid blanchedalmond;
+    border-radius: 50%;
+    
+    
+}
+.send:after {
+    position: absolute;
+    top: 9px;;
+    right: 10px;
+    content: '';
+    display: block;
+    width: 7px;
+    height: 7px;
+    border-right: 5px solid black;
+    border-top: 5px solid black;
+    border-radius: 3px;
+    transform: rotate(45deg);
+}

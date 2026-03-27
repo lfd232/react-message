@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-
+import styles from "./Auto.module.css"
 
 
  const Auto = () => {
@@ -9,11 +9,11 @@ import React, { useState } from 'react'
     console.log(date)
   }
   return (
-    <div className='form'>
-        <p>REGISTER</p>
+    <div className={styles.form}>
+        <h1>REGISTER</h1>
 
                 <input
-        className="in3"
+        className={styles.in1}
         type = "text"
         id = "register"
         name ="register"
@@ -23,7 +23,7 @@ import React, { useState } from 'react'
         placeholder='Username'  />   
         
         <input
-        className="in1"
+        className={styles.in1}
         type = "text"
         id = "name"
         name ="name"
@@ -33,7 +33,7 @@ import React, { useState } from 'react'
         placeholder='Email'  />    
 
         <input
-        className="in2"
+        className= {styles.in1}
         type = "text"
         id = "password"
         name ="password"
@@ -42,8 +42,10 @@ import React, { useState } from 'react'
         size = "30"
         placeholder='Password'  />
 
+<div className={styles.birth}>Enter your date of birth</div>
         <input
         onChange={handleClick}
+        className={styles.indate}
     type="date"
     id="start"
     value={date}
@@ -51,10 +53,11 @@ import React, { useState } from 'react'
     min="1900-01-01"
     max="2026-12-03" />
 
+    
   
 
 
-        <button className="submit">Sign up</button>
+        <button className={styles.submit}>Sign up</button>
         
     </div>
   )
