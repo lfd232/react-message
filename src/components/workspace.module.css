@@ -70,6 +70,7 @@
 .messagearea{
     width:100%;
     height:70%;
+
 }
 .send {
     
@@ -94,4 +95,13 @@
     border-top: 5px solid black;
     border-radius: 3px;
     transform: rotate(45deg);
+}
+.pinnedmessage{
+    height:65px;
+    width:65%;
+    background-color:grey;
+    border-radius: 65px;
+    margin-left:265px;
+    margin-right:265px;
+
 }
